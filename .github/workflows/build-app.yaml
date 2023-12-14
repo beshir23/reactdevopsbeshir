@@ -25,10 +25,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      name: check out repository code
-      uses: actions/checkout@v3
+      - name: check out repository code
+        uses: actions/checkout@v3
 
-      name: setup node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18.x
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
