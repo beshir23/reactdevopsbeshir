@@ -4,7 +4,7 @@ on:
     branches:
      development
     jobs:
-      build-job:
+      build:
         runs-on: macos-latest
         step:
           - name: check out repository code
