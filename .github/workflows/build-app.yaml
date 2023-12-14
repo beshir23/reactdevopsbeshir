@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-    step:
+      step:
       - name: check out repository code
         uses: actions/checkout@v3
         
