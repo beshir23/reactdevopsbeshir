@@ -2,7 +2,7 @@ name: build-app-react
 on:
   push:
     branches:
-     development
+     copy2
 jobs:
   build:
     runs-on: macos-latest
